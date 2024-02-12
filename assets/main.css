@@ -1,0 +1,64 @@
+
+  .add-product {
+    max-width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #1f1f1f;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .inputValue {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #3ee444;
+    color: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #35eb3f;
+  }
+  
+  .test {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .myCheckbox {
+    margin-right: 8px;
+  }
+  
+  .inputName {
+    flex-grow: 1;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .lineText {
+    text-decoration: line-through;
+  }
